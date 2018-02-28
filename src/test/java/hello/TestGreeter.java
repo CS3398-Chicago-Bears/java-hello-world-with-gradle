@@ -73,5 +73,19 @@ public class TestGreeter {
       assertNotSame(g.getName(),g);
 
    }
+	
+   @Test
+
+   public void newtestmjnGreeterPass() 
+
+   {
+
+      g.setName("Please give me a 100");
+
+      assertEquals(g.getName(),"Please give me a 100");
+	   
+      assertEquals(g.sayHello(), "Hello Please give me a 100");
+
+   }
 
 }
