@@ -62,6 +62,7 @@ public class TestGreeter {
 
    }
    
+   @Test
    public void newtestJBKGreeterPass() 
 
    {
@@ -73,7 +74,8 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello World!");
 
    }
-   
+   /*
+   @Test
    public void newtestJBKGreeterFail() 
 
    {
@@ -82,10 +84,10 @@ public class TestGreeter {
 
       assertEquals(g.getName(),"Earth");
 
-      assertEquals(g.sayHello(),"Hello not World!");
+      //assertEquals(g.sayHello(),"Hello not World!");
 
    }
-
+	*/
 
 
 }
