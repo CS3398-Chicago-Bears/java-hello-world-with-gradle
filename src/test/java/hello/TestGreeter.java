@@ -78,7 +78,7 @@ public class TestGreeter {
 
       g.setName("Taylorasdf");
 
-      assertEquals(g.getName(),"Taylor");
+      assertEquals(g.getName(),"PLEASE FAIL");
 
    }
 
