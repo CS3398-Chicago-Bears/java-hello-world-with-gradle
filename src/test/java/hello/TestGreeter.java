@@ -80,9 +80,9 @@ public class TestGreeter {
 
       g.setName("World");
 
-      assertEquals(g.getName(),"Not World");
+      assertEquals(g.getName(),"Earth");
 
-      assertEquals(g.sayHello(),"Hello World!");
+      assertEquals(g.sayHello(),"Hello not World!");
 
    }
 
