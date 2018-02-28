@@ -69,10 +69,8 @@ public class TestGreeter {
    {
 
       g.setName("Miguel");
-
-      assertEquals(g.getName(),"Miguel");
-
-      assertEquals(g.sayHello(),"Hello Miguel!");
+	   
+      assertNotSame(g.getName(),g);
 
    }
 
