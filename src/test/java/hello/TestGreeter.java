@@ -65,9 +65,9 @@ public class TestGreeter {
 	
    public void MPMtestGreeter2()
    {
-	g.setName("8");
+	g.setName("Omicron Persei 8");
 	   
-	assertTrue(g.getName() > "7");
+	assertTrue(g.getName());
 	   
 	assertEquals(g.sayHello(),"Greetings puny Earthlings!");
    }
