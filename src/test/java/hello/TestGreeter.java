@@ -67,7 +67,7 @@ public class TestGreeter {
    {
 	g.setName("8");
 	   
-	assertGreater(g.getName(), "7");
+	assertTrue(g.getName() > "7");
 	   
 	assertEquals(g.sayHello(),"Greetings puny Earthlings!");
    }
