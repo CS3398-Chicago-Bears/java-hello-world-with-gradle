@@ -59,9 +59,24 @@ public class TestGreeter {
       assertEquals(g.getName(),"World");
 
       assertEquals(g.sayHello(),"Hello World!");
-	   
-      newtest<MPM>GreeterFail();
 
    }
-
+	
+	
+   public void testGreeter2()
+   {
+	g.setName("Omicron Persei 8");
+	   
+	assertGreaterThan(g.getName(), "Omicron Persei 7");
+	   
+	assertEquals(g.sayHello(),"Greetings puny Earthlings!");
+   }
+	
+   public void newtest<MPM>GreeterFail()
+   {
+	g.setName("Rick King"); 
+	   
+	assertNotEquals(g.getName(), "Rick King");   
+   }
+	
 }
