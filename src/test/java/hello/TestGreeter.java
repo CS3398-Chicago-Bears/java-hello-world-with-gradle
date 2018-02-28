@@ -63,6 +63,8 @@ public class TestGreeter {
    }
 	
 	
+   @test	
+	
    public void MPMtestGreeter2()
    {
 	g.setName("Omicron Persei 8");
@@ -71,6 +73,9 @@ public class TestGreeter {
 	   
 	assertEquals(g.sayHello(),"Greetings puny Earthlings!");
    }
+	
+	
+ //  @test
 	
   // public void newtestMPMGreeterFail()
  //  {
