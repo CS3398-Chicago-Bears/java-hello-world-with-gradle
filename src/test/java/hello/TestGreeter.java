@@ -74,7 +74,17 @@ public class TestGreeter {
 
    }
 	
+   @Test
+	
+   public void newtestTMGreeterFail() 
 
+   {
+
+	g.setName("Taylor");
+
+	assertEquals(g.getName(),";ALSDKJFA;SDKF");
+
+   }
 	
 
 }
