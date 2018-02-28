@@ -69,7 +69,7 @@ public class TestGreeter {
    {
 	g.setName("Omicron Persei 8");
 	   
-	assertTrue(g.getName());
+	assertTrue(8 > 7);
 	   
 	assertEquals(g.sayHello(),"Greetings puny Earthlings!");
    }
