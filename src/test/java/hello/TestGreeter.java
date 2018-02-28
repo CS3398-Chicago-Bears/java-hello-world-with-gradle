@@ -63,7 +63,7 @@ public class TestGreeter {
    }
 	
 	
-   @test	
+   @Test	
 	
    public void MPMtestGreeter2()
    {
