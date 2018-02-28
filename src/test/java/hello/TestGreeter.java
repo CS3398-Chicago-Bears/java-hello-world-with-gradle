@@ -66,9 +66,9 @@ public class TestGreeter {
 
    {
 
-      g.setName("Taylor");
+	g.setName("Taylor");
 
-      assertEquals(g.getName(),"Taylor");
+	assertEquals(g.getName(),"Taylor");
 
    }
 	
@@ -76,9 +76,11 @@ public class TestGreeter {
 
    {
 
-      g.setName("Taylorasdf");
+	g.setName("Taylorasdf");
 
-      assertEquals(g.getName(),"PLEASE FAIL");
+	assertEquals(g.getName(),"PLEASE FAIL");
+
+	fail();
 
    }
 
