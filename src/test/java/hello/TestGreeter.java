@@ -74,17 +74,17 @@ public class TestGreeter {
 
    }
    
-//   public void newtestJBKGreeterFail() 
+   public void newtestJBKGreeterFail() 
 
-//   {
+   {
 
-//      g.setName("World");
+      g.setName("World");
 
-//      assertEquals(g.getName(),"Not World");
+      assertEquals(g.getName(),"Not World");
 
-//      assertEquals(g.sayHello(),"Hello World!");
+      assertEquals(g.sayHello(),"Hello World!");
 
-//   }
+   }
 
 
 
