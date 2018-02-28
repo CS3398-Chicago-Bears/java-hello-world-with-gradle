@@ -62,6 +62,8 @@ public class TestGreeter {
 
    }
 	
+   @Test
+	
    public void newtestTMGreeterPass() 
 
    {
@@ -72,16 +74,7 @@ public class TestGreeter {
 
    }
 	
-   public void newtestTMGreeterFail() 
 
-   {
-
-	g.setName("Taylorasdf");
-
-	assertEquals(g.getName(),"PLEASE FAIL");
-
-	fail();
-
-   }
+	
 
 }
