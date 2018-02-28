@@ -76,15 +76,13 @@ public class TestGreeter {
 	
    @Test
 
-   public void newtestmjnGreeterPass() 
+   public void newtestmjnGreeterFail() 
 
    {
 
       g.setName("Please give me a 100");
 
-      assertEquals(g.getName(),"Please give me a 100");
-	   
-      assertEquals(g.sayHello(), "Hello Please give me a 100");
+      assertEquals(g.getName(),"Please give me a 70");
 
    }
 
