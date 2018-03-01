@@ -75,13 +75,13 @@ public class TestGreeter {
    }
 	
 	
- //  @test
+  @Test
 	
-  // public void newtestMPMGreeterFail()
- //  {
-//	g.setName("Rick King"); 
+  public void newtestMPMGreeterFail()
+  {
+	g.setName("Rick King"); 
 	   
-//	assertNotEquals(g.getName(), "Rick King");   
- //  }
+	assertNotEquals(g.getName(), "Rick King");   
+  }
 	
 }
