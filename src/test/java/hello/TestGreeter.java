@@ -71,7 +71,7 @@ public class TestGreeter {
 	   
 	assertTrue(8 > 7);
 	   
-	assertEquals(g.sayHello(),"Greetings puny Earthlings!");
+	assertEquals(g.sayHello(),"Hello Omicron Persei 8!");
    }
 	
 	
