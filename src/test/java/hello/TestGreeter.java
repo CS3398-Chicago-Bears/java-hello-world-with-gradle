@@ -75,7 +75,7 @@ public class TestGreeter {
       assertEquals(g.sayHello(),"Hello Jeff!");
 
    }
-	/*
+
    @Test
 
    public void newtestJJGreeterFail()
@@ -89,6 +89,5 @@ public class TestGreeter {
       assertNotEquals(g.sayHello(),"Hello Jeff!");
 
    }	
-	
-*/
+
 }
